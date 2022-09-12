@@ -1,0 +1,206 @@
+*,
+*::before,
+*::after {
+    
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+}
+
+figure, .user, img, .work, .play, .study, .exercise, .social, .self, .backWork, .backPlay, .backStudy, .backExercise, .backSocial, .backSelf {
+
+    width: 325px;
+    height: 135px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+figure {
+
+    background-color: hsl(246, 80%, 60%);
+    z-index: 1000;
+}
+
+.jeremy {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.report {
+
+    margin-left: 120px;
+    margin-top: -60px;
+    color: hsl(236, 100%, 87%);
+    font-size: 16px;
+}
+
+.name {
+
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.user, .work, .play, .study, .exercise, .social, .self {
+
+    background-color: hsl(235, 46%, 20%);
+}
+
+.user {
+
+    position: relative;
+    margin-top: -65px;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.daily, .weekly, .monthly  {
+
+    border: 0;
+    background-color: hsl(235, 46%, 20%);
+    color: hsl(235, 45%, 61%);
+    font-size: 17px;
+    font-weight: 300;
+} 
+
+.weekly {
+
+    color: white;
+}
+
+.daily:hover, .weekly:hover, .monthly:hover {
+
+    cursor: pointer;   
+}
+
+img {
+
+    width: 70px;
+    height: 65px;
+    margin-top: -5px;
+    margin-left: 235px;
+}
+
+.backWork, .backPlay, .backStudy, .backExercise, .backSocial, .backSelf {
+
+    margin-top: 25px;
+    position: relative;
+    z-index: -20;
+}
+
+.work, .play, .study, .exercise, .social, .self {
+
+    margin-top: -100px;
+}
+.backWork {
+
+    background-color: hsl(15, 100%, 70%);
+}
+
+.backPlay {
+
+    background-color: hsl(195, 74%, 62%);
+}
+
+.backStudy{
+
+    background-color: hsl(348, 100%, 68%);
+}
+
+.backExercise {
+
+    background-color: hsl(145, 58%, 55%);
+}
+
+.backSocial {
+
+    background-color: hsl(264, 64%, 52%);
+}
+
+.backSelf {
+
+    background-color: hsl(43, 84%, 65%);
+}
+
+h1, p, .currentWork, .currentPlay, .currentStudy, .currentExercise, .currentSocial, .currentSelf {
+
+    color: white;
+}
+
+a, h2 {
+
+    color: hsl(236, 100%, 87%);
+}
+
+h1 {
+
+    
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+p {
+
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.dot {
+
+    margin-left: 270px;
+    margin-top: -40px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+
+
+.attribution { 
+    
+    margin-top: 30px;
+    font-size: 11px;
+    text-align: center; 
+}
+    
+.attribution a { 
+    
+    color: hsl(228, 45%, 44%); 
+}
+  
