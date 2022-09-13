@@ -23,8 +23,10 @@ const previousSelf = document.getElementsByClassName('previousSelf');
 const getData = async (path)=> {
     return await fetch(path);
   };
+
+console.log(getData);
   // somewhere in your code ...
-  //const data = await getData("path/to/data.json");
+  const data = await getData("path/to/data.json");
 
 btnDaily.onclick = () =>{
 
