@@ -24,7 +24,7 @@ const getData = async (path)=> {
     return await fetch(path);
   };
   // somewhere in your code ...
-  const data = await getData("path/to/data.json");
+  //const data = await getData("path/to/data.json");
 
 btnDaily.onclick = () =>{
 
