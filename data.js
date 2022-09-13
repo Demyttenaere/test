@@ -32,8 +32,8 @@ btnDaily.onclick = () =>{
     .then(reponse => reponse.json())
     .then(reponse2 => {
     
-        currentWork.textContent = response2[0].timeframes.daily.current;
-        previousWork.textContent = response2[0].timeframes.daily.previous;
+        currentWork.textContent = reponse2[0].timeframes.daily.current;
+        previousWork.textContent = reponse2[0].timeframes.daily.previous;
         
 
     })
