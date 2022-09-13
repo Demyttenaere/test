@@ -27,6 +27,7 @@ const getData = async (path)=> {
 console.log(getData);
   // somewhere in your code ...
   const data = await getData("path/to/data.json");
+console.log(data);
 
 btnDaily.onclick = () =>{
 
